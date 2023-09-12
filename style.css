@@ -46,15 +46,14 @@ body {
   color: white !important;
 }
 
-.container {
+.custom-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-min-width: 80%;
+  align-items: center !important;
+  /* max-width: 1200px; */
+  width: 80%;
   margin: 0 auto;
-  /* padding: 0 20px; */
 }
 
 /* Logo styles */
@@ -67,7 +66,8 @@ min-width: 80%;
   list-style-type: none;
   padding: 0;
   display: flex;
-  height: 10px;
+  align-items: center;
+  /* height: 10px; */
 }
 
 .nav-links li {
@@ -86,17 +86,6 @@ min-width: 80%;
 logo:hover {
   color: #00bcd4;
 }
-
-/* Dark theme styles for the header */
-/* header {
-  text-align: center;
-  padding: 10px 0;
-}
-
-header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-} */
 
 .header {
   width: 80%;

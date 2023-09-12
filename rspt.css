@@ -1,10 +1,6 @@
 /* Add a selector here, such as a class or an HTML element */
 @media (max-height: 370px), (max-width: 640px) {
-     #gmail , .logo , .ml-2{
+     /* #gmail , .ml-2{
           display  :none;
-     }
-     .nav-links {
-          padding-right: 140px;
-          font-size: 50px;
-     }
+     } */
 }
