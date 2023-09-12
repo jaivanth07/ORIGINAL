@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 /* Reset default margin and padding for body and header */
 body,
@@ -7,17 +7,24 @@ h1,
 p {
   margin: 0;
   padding: 0;
-  background-color: #111827;
+  /* background-color: #111827; */
 }
 
-html{
+html {
   scroll-behavior: smooth;
-  background-color: #111827 !important;
+  background: url("./assets/image_5.jpg") rgba(0, 0, 0, 0.6);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  min-width: 100vh;
+  /* background-color: #111827 !important; */
 }
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #111827; /* Dark background color */
+  /* background-color: #111827; */
   color: #fff; /* White text color */
   /* Hide vertical scrollbar */
   font-family: "Poppins", sans-serif !important;
@@ -25,15 +32,27 @@ body {
 
 /* Navbar styles */
 .navbar {
-  background-color: #111827; /* Darker background color for the navbar */
-  padding: 10px 0;
+  /* background-color: #111827; */
+  padding: 15px 0;
+  margin: 40px 0;
+}
+
+.grad {
+  background-image: linear-gradient(
+    to right,
+    rgb(192, 7, 152),
+    rgb(13, 128, 194)
+  );
+  color: white !important;
 }
 
 .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
+min-width: 80%;
   margin: 0 auto;
   /* padding: 0 20px; */
 }
@@ -42,7 +61,6 @@ body {
 .logo {
   width: 40px; /* Set the width to match the navbar's size */
   height: auto; /* Maintain the aspect ratio */
-;
 }
 
 .nav-links {
@@ -70,7 +88,7 @@ logo:hover {
 }
 
 /* Dark theme styles for the header */
-header {
+/* header {
   text-align: center;
   padding: 10px 0;
 }
@@ -78,6 +96,22 @@ header {
 header h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
+} */
+
+.header {
+  width: 80%;
+  margin: 120px auto 20px auto;
+}
+
+.c-width {
+  width: fit-content;
+  margin: 20px 0;
+}
+
+.c-width h2 {
+  margin-top: 40px !important;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .quote {
